@@ -1,0 +1,13 @@
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\Lt.Nation UI.exe.config
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\Lt.Nation UI.exe
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\Lt.Nation UI.pdb
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\FastColoredTextBox.dll
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\FastColoredTextBox.xml
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation UI.csprojAssemblyReference.cache
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation_UI.Form1.resources
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation_UI.Properties.Resources.resources
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation UI.csproj.GenerateResource.cache
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation UI.csproj.CoreCompileInputs.cache
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation UI.csproj.CopyComplete
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation UI.exe
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation UI.pdb
