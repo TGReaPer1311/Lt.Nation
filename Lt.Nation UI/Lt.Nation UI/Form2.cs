@@ -64,8 +64,33 @@ namespace Lt.Nation_UI
         {
             SendLuaCScript(fastColoredTextBox1.Text);
         }
+        private void Form2_Closing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+        private void Form2_Closed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
 
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            button2.Visible = true;
+            button5.Visible = false;
+            fastColoredTextBox1.Text = ("Lua Script");
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            button5.Visible = true;
+            button2.Visible = false;
+            fastColoredTextBox1.Text = ("Lua C Script");
+        }
     }
 }
 

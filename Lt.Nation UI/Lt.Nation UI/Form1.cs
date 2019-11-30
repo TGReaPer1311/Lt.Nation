@@ -10,77 +10,31 @@ using System.Windows.Forms;
 using TrinitySeal;
 using Newtonsoft;
 using TrinityGUI;
+using System.Threading;
 namespace Lt.Nation_UI
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
-            SealCheck.HashChecks();
             this.InitializeComponent();
-            Seal.Secret = "88zG4ZGbXcu8BzOgUYjFJG3kwWY7ACZx41PNForo8f1Z7";
-            Seal.Initialize("1.0");
+            SealCheck.HashChecks();
+
+            if (SealCheck.isValidDLL)
+            {
+                //new Form2() can be changed to the form that you want to show after login
+                //SealColours.Red can be changed to any colour that you like
+                //The form will automatically carry out all tasks such as grabbing variables and showing then next form is login is successful, or if freemode is enabled
+                TrinitySeal.Seal.InitializeForm("88zG4ZGbXcu8BzOgUYjFJG3kwWY7ACZx41PNForo8f1Z7", "1.0", "", this, new Form2(), SealColours.Orange);
+            }
+            
         }
+    
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void BtnShowRegister_Click(object sender, EventArgs e)
-        {
-            this.btnRegister.Visible = true;
-            this.btnShowRegister.Visible = false;
-            this.txtBxEmail.Visible = true;
-            this.txtBxToken.Visible = true;
-            this.BtnLogin.Visible = false;
-        }
-
-        private void BtnRegister_Click(object sender, EventArgs e)
-        {
-
-            SealCheck.HashChecks(); // Check integrity of auth files
-
-            if (SealCheck.isValidDLL)
-            {
-                // The register arguments goes in the order: username, password, email, token
-                bool response = TrinitySeal.Seal.Register(txtBxToken.Text, txtBxEmail.Text, txtBxPassword.Text, txtBxUsername.Text);
-                if (response)
-                {
-                    this.btnRegister.Visible = false;
-                    this.btnShowRegister.Visible = true;
-                    this.txtBxEmail.Visible = false;
-                    this.txtBxToken.Visible = false;
-                    this.BtnLogin.Visible = true;
-                }
-                else
-                {
-                    MessageBox.Show("Register Unsucessful");
-                }
-            }
-
-        }
-
-        private void Btnshowlog_Click(object sender, EventArgs e)
-        {
-            this.btnRegister.Visible = false;
-            this.BtnLogin.Visible = true;
-            this.txtBxEmail.Visible = false;
-            this.txtBxToken.Visible = false;
-            this.btnShowRegister.Visible = true;
-            this.btnshowlog.Visible = true;
-        }
-
-        private void BtnLogin_Click(object sender, EventArgs e)
-        {
-           if (Seal.Login(this.txtBxUsername.Text, this.txtBxPassword.Text, true))
-                {
-                   new Form2().Show();
-                    base.Hide();
-                }
-
-
-        }
     }
-    }
-
+}

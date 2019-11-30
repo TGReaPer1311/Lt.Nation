@@ -14,3 +14,12 @@ C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release
 C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation_UI.Form2.resources
 C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\Newtonsoft.Json.dll
 C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\TrinitySeal.dll
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\dje-NE\Lt.Nation UI.resources.dll
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\dje\Lt.Nation UI.resources.dll
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Release\en-CA\Lt.Nation UI.resources.dll
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation_UI.Form1.dje-NE.resources
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation_UI.Form1.dje.resources
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\Lt.Nation_UI.Form1.en-CA.resources
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\dje-NE\Lt.Nation UI.resources.dll
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\dje\Lt.Nation UI.resources.dll
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Release\en-CA\Lt.Nation UI.resources.dll
