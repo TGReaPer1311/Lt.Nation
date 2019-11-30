@@ -11,3 +11,6 @@ C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Debug\L
 C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Debug\FastColoredTextBox.dll
 C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Debug\FastColoredTextBox.xml
 C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Debug\Lt.Nation UI.csproj.CopyComplete
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Debug\Lt.Nation_UI.Form2.resources
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Debug\TrinitySeal.dll
