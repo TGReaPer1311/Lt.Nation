@@ -60,10 +60,6 @@ namespace Lt.Nation_UI
             SendLimitedLuaScript(fastColoredTextBox1.Text);
         }
 
-        private void Button5_Click(object sender, EventArgs e)
-        {
-            SendLuaCScript(fastColoredTextBox1.Text);
-        }
         private void Form2_Closing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
@@ -80,16 +76,26 @@ namespace Lt.Nation_UI
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            button2.Visible = true;
-            button5.Visible = false;
+            bunifuTileButton2.Visible = true;
+            bunifuTileButton1.Visible = false;
             fastColoredTextBox1.Text = ("Lua Script");
         }
 
         private void Button7_Click(object sender, EventArgs e)
         {
-            button5.Visible = true;
-            button2.Visible = false;
+            bunifuTileButton1.Visible = true;
+            bunifuTileButton2.Visible = false;
             fastColoredTextBox1.Text = ("Lua C Script");
+        }
+
+        private void BunifuTileButton1_Click(object sender, EventArgs e)
+        {
+            SendLuaCScript(fastColoredTextBox1.Text);
+        }
+
+        private void BunifuTileButton2_Click(object sender, EventArgs e)
+        {
+            SendLimitedLuaScript(fastColoredTextBox1.Text);
         }
     }
 }

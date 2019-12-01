@@ -37,6 +37,9 @@
     <ApplicationIcon>f0369e3eafb20a0f7319ca428c112c8a_1.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Desktop\Elysium shit\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="FastColoredTextBox">
       <HintPath>..\..\..\..\..\Downloads\FastColoredTextBox-master\Binary\FastColoredTextBox.dll</HintPath>
     </Reference>
