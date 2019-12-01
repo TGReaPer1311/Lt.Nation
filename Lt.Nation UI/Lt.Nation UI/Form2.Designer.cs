@@ -115,13 +115,14 @@
             this.fastColoredTextBox1.CharWidth = 8;
             this.fastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.fastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
+            this.fastColoredTextBox1.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.fastColoredTextBox1.IsReplaceMode = false;
             this.fastColoredTextBox1.Location = new System.Drawing.Point(4, 35);
             this.fastColoredTextBox1.Name = "fastColoredTextBox1";
             this.fastColoredTextBox1.Paddings = new System.Windows.Forms.Padding(0);
             this.fastColoredTextBox1.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.fastColoredTextBox1.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("fastColoredTextBox1.ServiceColors")));
-            this.fastColoredTextBox1.Size = new System.Drawing.Size(600, 283);
+            this.fastColoredTextBox1.Size = new System.Drawing.Size(600, 318);
             this.fastColoredTextBox1.TabIndex = 7;
             this.fastColoredTextBox1.Text = "Lua Script";
             this.fastColoredTextBox1.Zoom = 100;
@@ -156,7 +157,7 @@
             // bunifuTileButton1
             // 
             this.bunifuTileButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuTileButton1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.bunifuTileButton1.BackColor = System.Drawing.Color.SeaGreen;
             this.bunifuTileButton1.color = System.Drawing.Color.SeaGreen;
             this.bunifuTileButton1.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.bunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -167,13 +168,13 @@
             this.bunifuTileButton1.ImageZoom = 50;
             this.bunifuTileButton1.LabelPosition = 41;
             this.bunifuTileButton1.LabelText = "Execute";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(482, 353);
+            this.bunifuTileButton1.Location = new System.Drawing.Point(470, 362);
             this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton1.Name = "bunifuTileButton1";
             this.bunifuTileButton1.Size = new System.Drawing.Size(109, 54);
             this.bunifuTileButton1.TabIndex = 10;
-            this.bunifuTileButton1.Click += new System.EventHandler(this.BunifuTileButton1_Click);
             this.bunifuTileButton1.Visible = false;
+            this.bunifuTileButton1.Click += new System.EventHandler(this.BunifuTileButton1_Click);
             // 
             // bunifuColorTransition1
             // 
@@ -184,7 +185,7 @@
             // bunifuTileButton2
             // 
             this.bunifuTileButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuTileButton2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.bunifuTileButton2.BackColor = System.Drawing.Color.SeaGreen;
             this.bunifuTileButton2.color = System.Drawing.Color.SeaGreen;
             this.bunifuTileButton2.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.bunifuTileButton2.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -195,7 +196,7 @@
             this.bunifuTileButton2.ImageZoom = 50;
             this.bunifuTileButton2.LabelPosition = 41;
             this.bunifuTileButton2.LabelText = "Execute";
-            this.bunifuTileButton2.Location = new System.Drawing.Point(298, 327);
+            this.bunifuTileButton2.Location = new System.Drawing.Point(470, 362);
             this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton2.Name = "bunifuTileButton2";
             this.bunifuTileButton2.Size = new System.Drawing.Size(109, 54);
