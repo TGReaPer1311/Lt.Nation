@@ -24,3 +24,4 @@ C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Debug\d
 C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Debug\dje\Lt.Nation UI.resources.dll
 C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\obj\Debug\en-CA\Lt.Nation UI.resources.dll
 C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\ET-han\Documents\GitHub\Lt.Nation\Lt.Nation UI\Lt.Nation UI\bin\Debug\Bunifu_UI_v1.5.3.dll
